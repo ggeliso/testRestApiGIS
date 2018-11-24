@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Web Service Rest API</title>
+	<script src="scripts/jquery-3.3.1.min.js"></script>
+	<script src="https://kendo.cdn.telerik.com/2018.3.1017/js/kendo.all.min.js"></script>
+</head>
+<body>
+
+	<h1>Parámetros de entrada</h1>
+
+	<form action="" method="post">
+		<select id="queryList">
+			<option value="NULL">Seleccione</option>
+		  	<option value="intArcGISTotalCaracterizacionG">Total Caracterización Crudos G</option>
+		  	<option value="intArcGISTotalCrudosFinal">Total Crudos Final</option>
+		</select>
+		<button type="submit" id="getDataFromLbv">Ejecutar</button>
+	</form>
+	
+	<!--div id="results"></div-->
+
+	<script src="js/getData.js"></script>
+	
+</body>
+</html>
